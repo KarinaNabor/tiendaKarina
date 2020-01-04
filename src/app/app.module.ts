@@ -11,6 +11,9 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatButtonModule} from '@angular/material/button';
 import { StoreComponent } from './store/store.component';
 import {MatCardModule} from '@angular/material/card';
+import { SoyYOComponent } from './soy-yo/soy-yo.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { MapaComponent } from './mapa/mapa.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import {MatCardModule} from '@angular/material/card';
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    StoreComponent
+    StoreComponent,
+    SoyYOComponent,
+    CarouselComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,
